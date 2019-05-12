@@ -1,0 +1,69 @@
+.menu-column{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;  
+    overflow: scroll;
+    padding-bottom: 70px;
+    }
+.total-container{
+    position: absolute;
+    bottom: -3px;
+    width: 100vw;
+    height: 60px;
+    background-image: linear-gradient(to right,#E28431, #E99C39,  #E28431);  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .button{
+    color:#fff;
+    width:35px;
+    height:35px;
+    background-color:#E28431;
+    border-radius:30px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+ }
+ .button:hover {
+    cursor: pointer;
+    animation: jelly 0.5s;
+  }
+  
+  @keyframes jelly {
+    0%,
+    100% {
+      transform: scale(1, 1);
+    }
+    25% {
+      transform: scale(0.9, 1.1);
+    }
+    50% {
+      transform: scale(1.1, 0.9);
+    }
+    75% {
+      transform: scale(0.95, 1.05);
+    }
+  }
+  .checkout:hover {
+    cursor: pointer;
+    animation: jelly 0.5s;
+  }
+  
+  @keyframes jelly {
+    0%,
+    100% {
+      transform: scale(1, 1);
+    }
+    25% {
+      transform: scale(0.9, 1.1);
+    }
+    50% {
+      transform: scale(1.1, 0.9);
+    }
+    75% {
+      transform: scale(0.95, 1.05);
+    }
+  }

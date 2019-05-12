@@ -1,0 +1,29 @@
+.menu-container{
+-webkit-clip-path: polygon(0 15%, 100% 0, 100% 89%, 0 100%);
+clip-path: polygon(0 15%, 100% 0, 100% 89%, 0 100%);
+justify-content: flex-start;
+display: flex;
+flex-direction: row;  
+background:#fff;
+height: 100px;
+}
+
+.menu-arrow{
+  align-self: center;
+  border-radius: 50px;
+  background-color: #E28431;
+  height: 50px;
+  width: 50px;
+  color: #FFF;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.menu-title{
+  -ms-transform: rotate(-3deg); /* IE 9 */
+  -webkit-transform: rotate(-3deg); /* Safari 3-8 */
+  transform: rotate(-3deg);
+  margin-top: 50px;
+  margin-left: 40px;
+  min-width: 195px;
+}
